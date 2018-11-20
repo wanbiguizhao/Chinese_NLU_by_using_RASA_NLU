@@ -58,6 +58,14 @@ trainer/MITIE+jieba.bash
 ```bash
 cross_validation/MITIE+jieba.bash
 ```
+#### docker build
+```
+docker build -t rasanlu .
+```
+#### docker run 
+```
+docker run -itd -p 5000:5000 -v $PWD:/opt/project --name rasanlu rasanlu 
+```
 
 ### tensorflow_embedding
 
